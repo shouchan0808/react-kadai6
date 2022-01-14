@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+html {
+  font-size: 16px;
+}
+body,
+html {
+  width: 1280px;
+  margin: 1rem auto;
+}
+.wrap {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.task_value {
+  height: 1.5rem;
+}
+
+.task_submit,
+.comp {
+  height: 2rem;
+}
+.position_table {
+  position: relative;
+}
+.comp {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+#table {
+  background-color: papayawhip;
+  width: 45%;
+  height: 400px;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+li {
+  margin: 2rem 2rem 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}

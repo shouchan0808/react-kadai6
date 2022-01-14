@@ -159,7 +159,7 @@ export default function App() {
             ))}
           </ul>
         </div>
-        <div id="table" className="position_table">
+        <div id="table2" className="position_table">
           <h2>Compleated</h2>
           <ul className="compleate_list">
             {completes.map((completes) => (

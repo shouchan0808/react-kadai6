@@ -34,7 +34,8 @@ html {
   display: flex;
   justify-content: space-between;
 }
-#table {
+#table,
+#table2 {
   background-color: papayawhip;
   width: 45%;
   height: 400px;
